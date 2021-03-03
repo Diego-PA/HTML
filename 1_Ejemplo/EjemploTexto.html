@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
-<!--fsdfsdf-->
-
+<!--Esto es un comentario-->
 <head>
   <title>Estructura de Texto</title>
   <link rel="stylesheet" type="text/css" href="/css/ejemplo.css" />
@@ -12,12 +11,17 @@
   <meta name="description" content="Ejemplo de XHTML y HTML5"/>
   <meta name="keywords" content="HTML5, HTML, XHTML"/>
   <meta name="author" content="Dannas"/>
-  
+  <!--Opengraph-->
+  <meta property="og:title" content="Estructura de Texto">
+  <meta property="og:description" content="Ejemplo HTML5">
+  <meta property="og:author" content="Diego P.A.">
+
   <script type="text/javascript">
     //<![CDATA[
       window.onload = function() { alert("La página se ha cargado exitosamente :)"); }
     //]]>
   </script>
+
 </head>
 
 <body>
@@ -26,7 +30,7 @@
   <p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript.
 Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 </noscript>
-<img src="logotipo.gif" alt="Logotipo de esta página" />
+<img src="unnamed.gif" alt="Logotipo de esta página" />
 <ul>
     <li><a href="#">Inicio</a></li>
     <li><a href="ftp://ftp.ejemplo.com/ruta/archivo.zip" title="Archivo comprimido de los contenidos">Descarga un ZIP</a></li> 
@@ -34,13 +38,13 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
   </ul>
 <hr/>
 <h2>Lenguajes de marcado.</h2>
-<dl>
+<dl> <!--Definition List-->
   <dt>SGML</dt>
   <dd>Metalenguaje para la definición de otros lenguajes de marcado</dd>
  
   <dt>XML</dt>
   <dd>Lenguaje basado en SGML y que se emplea para describir datos</dd>
- 
+  <!--Completar desde aquí-->
   <dt>RSS</dt>
   <dt>GML</dt>
   <dt>XHTML</dt>
@@ -52,8 +56,13 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 
 <h2>HTML</h2>
 
-<p>El lenguaje <acronym title="HyperText Markup Language"><strong><em>HTML</em></strong></acronym> es estandarizado 
-por el <acronym title="World Wide Web Consortium"><strong><em>W3C</em></strong></acronym>.</p>
+<p>El lenguaje  <acronym title="HyperText Markup Language">
+                  <strong><em>HTML</em></strong>
+                </acronym> es estandarizado por el
+                <acronym title="World Wide Web Consortium">
+                  <strong><em>W3C</em></strong>
+                </acronym>.
+</p>
 
 <h3>HTML 5</h3>
 <p><acronym title="HyperText Markup Language, versión 5"><strong><em>HTML5</em></strong></acronym> es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: un <em>«clásico»</em> HTML (text/html), la variante conocida como HTML5 y una variante XHTML conocida como sintaxis XHTML5 que deberá ser servida como XML.Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.</p>
